@@ -7,7 +7,7 @@ const cors = require('cors')
 const { PrismaClient } = require('@prisma/client');
 const bodyParser = require('body-parser');
 const prisma = new PrismaClient();
-const { PrismaClient } = require('./prisma/generated/prisma-client');
+
 
 
 
